@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+int main ()
+{
+int num,i,limit;
+cout<<"enter a number : ";
+cin>>num;
+cout<<"enter the limit : ";
+cin>>limit;
+for(i=1;i<=limit;i++)
+{
+    cout<<num<<'*'<<i<<'='<<num*i<<endl;
+}
+return 0;
+}
